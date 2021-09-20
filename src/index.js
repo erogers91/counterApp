@@ -14,7 +14,7 @@ function reducer(state = initialState, action) {
     case 'INCREMENT':
       return { count: state.count + action.num };
     case 'REDUCE':
-      return { count: state.count - action.num}
+      return { count: state.count + action.num}
     default:
       return state;
   }
